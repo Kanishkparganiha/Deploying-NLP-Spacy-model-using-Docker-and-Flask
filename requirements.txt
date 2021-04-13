@@ -1,0 +1,7 @@
+en-core-web-lg==2.3.1
+en-core-web-sm==2.3.1
+Flask==1.1.2
+Flask-Misaka==1.0.0
+misaka==2.1.1
+spacy==2.3.5
+spacy-legacy==3.0.1

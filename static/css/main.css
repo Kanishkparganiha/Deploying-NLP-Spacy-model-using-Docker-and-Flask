@@ -1,0 +1,123 @@
+h1 {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #444;
+}
+
+table.dataframe, .dataframe th, .dataframe td {
+  border: none;
+  border-bottom: 1px solid #C8C8C8;
+  border-collapse: collapse;
+  text-align:left;
+  padding: 10px;
+  margin-bottom: 40px;
+  font-size: 0.9em;
+}
+
+
+.label{
+  font-family: "Helvetica Neue";
+  display:block;
+}
+p{
+  text-align: center;
+  
+}
+
+
+
+/*
+ * Formatting the header area
+ */
+
+
+/*
+ * Centering the body content
+ */
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+div.home {
+  padding: 10px 0 30px 0;
+  background-color: #E6E6FA;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+}
+
+div.about {
+  padding: 10px 0 30px 0;
+  background-color: #E6E6FA;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+}
+
+
+h1{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.button {
+
+  border-radius: 8px;
+  background-color: black;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 22px;
+  width: 120px;
+  height: 40px;
+  transition: all 0.5s;
+  cursor: pointer;
+
+}
+
+
+
+
+.buttonHolder{ text-align: center; }
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Named Entity Recognition for financial Documents</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+
+</head>
+
+<body>
+
+<!--    <img  src="{{ url_for('static', filename='NU.jpg') }}" alt=""> -->
+	<h1>Named Entity Recognition for documents</h1>
+
+     <!-- Main Input For Receiving Query to our ML -->
+    <form action="{{ url_for('extract')}}" method="post">
+
+      <div style="float:center;margin-right:20px;">
+        <label for="ner_text"></label>
+	<textarea id="ner_text" name="ner_text" rows="10" cols="50"></textarea>
+
+      </div>
+
+      <br>
+      <button class="button"  value="Submit"><span>Submit</span></button>
+
+    </form>
+
+   <br>
+
+
+
+
+
+</body>
+</html>
