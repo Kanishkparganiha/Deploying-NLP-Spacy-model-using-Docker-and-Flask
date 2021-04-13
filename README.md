@@ -1,8 +1,7 @@
 # Deploying-NLP-Spacy-model-using-Docker-and-Flask
 Check out deployed python app using docker container and heroku server
 
-https://docker-classroom-its.herokuapp.com/
-
+https://raise-green-ner.herokuapp.com/
 Introduction:
 
 Named Entity Recognition is the most important, or I would say, the starting step in Information Retrieval. Information Retrieval 
