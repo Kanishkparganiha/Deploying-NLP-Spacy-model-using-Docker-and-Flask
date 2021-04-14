@@ -2,6 +2,7 @@
 Check out deployed python app using docker container and heroku server
 
 https://raise-green-ner.herokuapp.com/
+
 Introduction:
 
 Named Entity Recognition is the most important, or I would say, the starting step in Information Retrieval. Information Retrieval 
@@ -14,3 +15,4 @@ Spacy Model:
 Spacy provides an option to add arbitrary classes to entity recognition systems and update the model to even include the new examples
 apart from already defined entities within the model. Spacy has the ‘ner’ pipeline component that identifies token spans fitting a 
 predetermined set of named entities. These are available as the ‘ents’ property of a Doc object.
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/57468338/114647435-14f6ee80-9cab-11eb-8099-c491ed1223a5.gif)
